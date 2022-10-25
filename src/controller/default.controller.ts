@@ -1,5 +1,5 @@
 
-import { Router } from 'express';
+import { Router, Request, Response } from 'express';
 
 import * as defaultService from 'service/default.service';
 
@@ -13,7 +13,7 @@ const asyncDelay = (duration : number) => {
     })
 }
 
-defaultController.get('/', async(req, res) => {
+defaultController.get('/', async(req: Request, res: Response) => {
     await asyncDelay(2000);
     res.status(200).send(defaultService.getDefaultResponse());
 })

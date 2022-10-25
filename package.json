@@ -1,5 +1,5 @@
 {
-  "name": "express-ts-quickstart",
+  "name": "@sourav-98/express-ts-quickstart",
   "version": "1.0.0",
   "description": "Express/Node and TypeScript quickstart",
   "main": "app.js",
@@ -39,6 +39,7 @@
     "@types/mongodb": "^4.0.7",
     "@types/node": "^17.0.19",
     "babel-plugin-module-resolver": "^4.1.0",
+    "babel-preset-minify": "^0.5.1",
     "nodemon": "^2.0.15",
     "ts-node": "^10.5.0",
     "tslib": "^2.3.1",
